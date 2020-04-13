@@ -1,14 +1,19 @@
+
+#The files are accesed after getting into NI crime data folder.
+getwd()
+setwd("NI Crime Data")
+
 #final_crime_data <- data.frame()
 #for(year in 2015:2017){ 
 #  for(month in 1:12){
 #    if (month < 10){
-#      crime_data <- read.csv(file=paste0("/Users/Manish/Downloads/NI Crime Data/", year,"-0",month,"/",year,"-0", month, "-northern-ireland-street.csv"))
+#      crime_data <- read.csv(file=paste0("/year,"-0",month,"/",year,"-0", month, "-northern-ireland-street.csv"))
 
 #      final_crime_data<-rbind(final_crime_data,crime_data)
 
 #    }
 #    else{
-#      crime_data <- read.csv(file=paste0("/Users/Manish/Downloads/NI Crime Data/", year,"-", month, "/", year,"-", month, "-northern-ireland-street.csv"))
+#      crime_data <- read.csv(file=paste0("year,"-", month, "/", year,"-", month, "-northern-ireland-street.csv"))
 
 #      final_crime_data <- rbind(final_crime_data, crime_data)
 

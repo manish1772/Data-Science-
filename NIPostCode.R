@@ -1,5 +1,9 @@
+#The files that musr be compiled first is NiPostcode.r
+#The datasets are stored in current working directory.Hence they are read from cwd
 
 
+
+getcwd()
 #Reading the dataset and loading it into dataFrame
 my_data <- read.csv("NIPostcodes.csv", header = FALSE)
 #I made header = FALSE because read.csv was not reading the first row
